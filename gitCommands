@@ -3,3 +3,9 @@ git add -A
 git commit -a --> enter comments
 
 git push`
+
+i for insert mode
+esc for exiting insert mode or go into command mode
+when in command mode, shift zz to save and quit
+:wq is same as shift zz
+
