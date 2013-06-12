@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/demouser/Documents/AndroidCamp/LabExercise5.x/PollDanceProject/PollDance/src/main/assets" />
+        <source path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/demouser/Documents/AndroidCamp/LabExercise5.x/PollDanceProject/PollDance/src/debug/assets" />
+        <source path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/debug/assets" />
     </dataSet>
 
 </merger>
