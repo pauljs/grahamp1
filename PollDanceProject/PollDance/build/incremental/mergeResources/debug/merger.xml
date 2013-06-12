@@ -24,6 +24,21 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
+                name="activity_client_response"
+                path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/activity_client_response.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_create_poll"
+                path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/activity_create_poll.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_host_home"
+                path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/activity_host_home.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_main"
                 path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/activity_main.xml"
                 qualifiers=""
@@ -44,11 +59,11 @@
             <file
                 path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="action_settings" >Settings
+                <string name="create_poll_title" >PollDance: Create Poll
                 </string>
                 <string name="app_name" >PollDance
                 </string>
-                <string name="hello_world" >Hello world!
+                <string name="client_response_title" >PollDance: Client Response Screen
                 </string>
             </file>
             <file
@@ -104,16 +119,6 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="activity_create_poll"
-                path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/activity_create_poll.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_host_home"
-                path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/activity_host_home.xml"
-                qualifiers=""
-                type="layout" />
         </source>
         <source path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/rs/debug" />
     </dataSet>

@@ -4,9 +4,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <string name="action_settings">Settings</string>
     <string name="app_name">PollDance</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="client_response_title">PollDance: Client Response Screen</string>
+    <string name="create_poll_title">PollDance: Create Poll</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

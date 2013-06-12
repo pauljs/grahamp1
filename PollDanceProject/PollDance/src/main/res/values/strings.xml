@@ -2,9 +2,11 @@
 <resources>
 
     <string name="app_name" >PollDance</string>
+    <string name = "action_settings" >Settings</string>
 
     <!-- Title of each screen : Where applicable -->
     <string name = "create_poll_title" >PollDance: Create Poll</string>
     <string name = "client_response_title" >PollDance: Client Response Screen</string>
+
 
 </resources>

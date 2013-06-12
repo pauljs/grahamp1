@@ -1,15 +1,16 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
+1371077277000 276 a8c32eb9e696c4e873e4c319b57bdfd12f2eecda /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/activity_client_response.xml
 1371065368000 24780 6c2954bdacb8129ac00edfd084b98daf226518e3 /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
 1371065368000 7783 03172612ec7d8d2cc6295a185410c3e6501771aa /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/drawable-hdpi/ic_launcher.png
 1371065368000 125 fae9d1b71d520745438010c9ca7cde9c81dfefac /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/values-sw720dp-land/values.xml
-1371070955000 518 d9c2af71649059a5f7974526e016863a2eea9ba8 /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/activity_create_poll.xml
-1371065368000 787 bd14147ca3d8779f61c70a9ddbe40c7082f1a36e /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/values/values.xml
+1371077277000 536 ff230a5edfa3adcedeedd2219ae7d1dd604b8f52 /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/activity_create_poll.xml
+1371077277000 834 97fa99d10e1e49f19f5fa2b29cbe22cf8bbbfe0b /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/values/values.xml
 1371065368000 12356 75154d4f6e93c8832a74d3c27c8cf0d44672ea3e /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/drawable-xhdpi/ic_launcher.png
 1371065368000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/values-v11/values.xml
 1371065368000 3760 9d45e7de00dac30e9738dc369dece2835bf9677e /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/drawable-mdpi/ic_launcher.png
 1371071064000 804 e41a05d26fa3be82ccbc421e9a5379fcb1cf6478 /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/activity_host_home.xml
 1371065368000 217 f02e000d05a079992d2dba18039216c1e6b8784f /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/values-v14/values.xml
-1371065368000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/menu/main.xml
+1371077478000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/menu/main.xml
 1371071064000 835 b05d98a6adfb361a5e5cef6eceac3c927c703950 /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/activity_main.xml
