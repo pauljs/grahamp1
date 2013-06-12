@@ -67,28 +67,4 @@ public class Poll
         Answer tmp = new Answer( answer , isCorrect ) ;
         _answers.add( tmp ) ;
     }
-
-
-    /* --- PRIVATE CLASSES ---------------------------------------------------- */
-
-    /**
-     * A wrapper class that wraps an answer and whether the answer is correct.
-     */
-    private class Answer
-    {
-        private String answer ;
-        private boolean isCorrect ;
-
-        /**
-         * Constructs an answer object.
-         *
-         * @param answer The answer.
-         * @param isCorrect Whether the answer is correct or not.
-         */
-        private Answer( String answer , boolean isCorrect )
-        {
-            this.answer = answer ;
-            this.isCorrect = isCorrect ;
-        }
-    }
 }

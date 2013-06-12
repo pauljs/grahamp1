@@ -4,7 +4,9 @@
     <list default="true" id="95bce344-6df7-42a6-b4ca-3e2b988c269d" name="Default" comment="" />
     <ignored path="PollDance.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Poll.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371071088402" ignored="false" />
+    <file path="/Poll.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371071743678" ignored="false" />
+    <file path="/Answer.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371072359305" ignored="false" />
+    <file path="/Result.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371074453940" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +67,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Poll.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Poll.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Poll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7173913">
+            <state line="68" column="5" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Answer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Answer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="5" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,6 +109,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Poll.java" />
+        <option value="$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Answer.java" />
+        <option value="$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Result.java" />
       </list>
     </option>
   </component>
@@ -360,12 +384,12 @@
       <updated>1371064987238</updated>
       <workItem from="1371065018402" duration="31000" />
       <workItem from="1371065155664" duration="16000" />
-      <workItem from="1371069605419" duration="1533000" />
+      <workItem from="1371069605419" duration="4871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1580000" />
+    <option name="totallyTimeSpent" value="4918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1083" height="700" extended-state="0" />
@@ -457,7 +481,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Poll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7173913">
+        <state line="68" column="5" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PollDance/src/main/java/com/grahamp1/polldance/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
