@@ -14,6 +14,9 @@
     <list default="true" id="95bce344-6df7-42a6-b4ca-3e2b988c269d" name="Default" comment="" />
     <ignored path="PollDance.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Poll.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371071743678" ignored="false" />
+    <file path="/Answer.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371072359305" ignored="false" />
+    <file path="/Result.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371074453940" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +223,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -404,6 +408,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="015d3248fe14181a" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -547,11 +552,12 @@
       <updated>1371064987238</updated>
       <workItem from="1371065018402" duration="31000" />
       <workItem from="1371065155664" duration="16000" />
+      <workItem from="1371069605419" duration="4871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47000" />
+    <option name="totallyTimeSpent" value="4918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
