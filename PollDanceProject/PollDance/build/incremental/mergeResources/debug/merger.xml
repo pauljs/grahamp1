@@ -69,9 +69,9 @@
             <file
                 path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="create_poll_title" >PollDance: Create Poll
-                </string>
                 <string name="action_settings" >Settings
+                </string>
+                <string name="create_poll_title" >PollDance: Create Poll
                 </string>
                 <string name="question" >Question:
                 </string>

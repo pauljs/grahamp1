@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PollDance/PollDance.iml" filepath="$PROJECT_DIR$/PollDance/PollDance.iml" />
       <module fileurl="file://$PROJECT_DIR$/PollDanceProject.iml" filepath="$PROJECT_DIR$/PollDanceProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PollDance/src/main/main.iml" filepath="$PROJECT_DIR$/PollDance/src/main/main.iml" />
     </modules>
   </component>
 </project>

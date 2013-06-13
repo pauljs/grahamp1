@@ -1,7 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1371102052000 2368 744fc3bf8fde94c13cbd4d1c3487e0d769e951bf /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/activity_client_response.xml
+1371103939000 2534 5c8a192867de6c3991b947697cfdf2fde8059f8a /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/activity_client_response.xml
 1371065368000 7783 03172612ec7d8d2cc6295a185410c3e6501771aa /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/drawable-hdpi/ic_launcher.png
 1371102052000 2164 1cc3297d3dd339351351d7fee3fa7eef732eb7dc /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/activity_create_poll.xml
 1371079272000 536 d468a991830d0cc85a61ae77b916a730219447aa /Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/all/debug/layout/fragment_new_answer.xml

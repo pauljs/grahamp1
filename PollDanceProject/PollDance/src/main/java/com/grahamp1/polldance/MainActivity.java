@@ -18,4 +18,8 @@ public class MainActivity extends Activity {
     public void goToHostHome(View view) {
         startActivity(new Intent(this, HostHomeActivity.class));
     }
+
+    public void goToResponseScreen(View view) {
+        //startActivity(new Intent(this, ClientResponseActivity.class));
+    }
 }

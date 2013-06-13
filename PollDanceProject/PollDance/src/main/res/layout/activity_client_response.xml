@@ -9,7 +9,8 @@
     android:weightSum = "100"
 
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ff0000">
 
 
     <!-- TOP: Question and Timer -->
@@ -21,7 +22,7 @@
         android:layout_width = "match_parent"
         android:layout_height = "0dp"
 
-        android:color = "FF0000"
+        android:color = "#FF0000"
 
         android:orientation = "horizontal">
 
@@ -83,7 +84,6 @@
         android:layout_height = "0dp"
 
         android:layout_marginTop = "5dp"
-        android:layout_marginBotton = "5dp"
         android:layout_marginLeft = "5dp"
         android:layout_marginRight = "5dp"
 
@@ -104,7 +104,6 @@
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
 
-        android:layout_marginBotton = "5dp"
     />
 
 </LinearLayout>
