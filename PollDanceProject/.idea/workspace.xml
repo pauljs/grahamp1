@@ -2,9 +2,7 @@
 <project version="4">
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState>
-        <option name="visible" value="false" />
-      </GlobalState>
+      <GlobalState />
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -34,7 +32,7 @@
     <file path="/Dummy.txt" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371076521745" ignored="false" />
     <file path="/strings.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371099554391" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371077296410" ignored="false" />
-    <file path="/activity_client_response.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371100578120" ignored="false" />
+    <file path="/activity_client_response.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371102234769" ignored="false" />
     <file path="/styles.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371099363777" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,14 +110,14 @@
       </file>
       <file leaf-file-name="activity_client_response.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PollDance/src/main/res/layout/activity_client_response.xml">
-          <provider editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.6030246">
               <folding>
-                <element signature="e#1986#2002#0" expanded="true" />
+                <element signature="e#2278#2294#0" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
@@ -586,21 +584,21 @@
       <workItem from="1371065155664" duration="16000" />
       <workItem from="1371069605419" duration="4871000" />
       <workItem from="1371074996870" duration="2459000" />
-      <workItem from="1371077534868" duration="9240000" />
+      <workItem from="1371077534868" duration="10327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16617000" />
+    <option name="totallyTimeSpent" value="17704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="22" width="1258" height="704" extended-state="1" />
-    <editor active="true" />
+    <frame x="18" y="22" width="1258" height="704" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920793" sideWeight="0.67064846" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920793" sideWeight="0.67064846" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.67064846" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.67064846" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22231404" sideWeight="0.9189603" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22231404" sideWeight="0.9189603" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -612,7 +610,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24901186" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24545455" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24545455" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07966102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -810,14 +808,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PollDance/src/main/res/layout/activity_client_response.xml">
-      <provider editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.6030246">
           <folding>
-            <element signature="e#1986#2002#0" expanded="true" />
+            <element signature="e#2278#2294#0" expanded="true" />
           </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
