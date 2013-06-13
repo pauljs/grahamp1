@@ -24,6 +24,16 @@
     <list default="true" id="95bce344-6df7-42a6-b4ca-3e2b988c269d" name="Default" comment="" />
     <ignored path="PollDance.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Poll.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371071743678" ignored="false" />
+    <file path="/Answer.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371072359305" ignored="false" />
+    <file path="/Result.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371074453940" ignored="false" />
+    <file path="/activity_create_poll.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371075358540" ignored="false" />
+    <file path="/ClientResponseActivity.java" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371078615073" ignored="false" />
+    <file path="/Dummy.txt" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371076521745" ignored="false" />
+    <file path="/strings.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371099554391" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371077296410" ignored="false" />
+    <file path="/activity_client_response.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371102234769" ignored="false" />
+    <file path="/styles.xml" changelist="95bce344-6df7-42a6-b4ca-3e2b988c269d" time="1371099363777" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,14 +159,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_client_response.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PollDance/build/res/all/debug/layout/activity_client_response.xml">
+      <file leaf-file-name="activity_client_response.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PollDance/src/main/res/layout/activity_client_response.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="36" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
+            <state line="100" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.6030246">
               <folding>
-                <element signature="e#1986#2002#0" expanded="true" />
+                <element signature="e#2278#2294#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -616,21 +629,23 @@
       <workItem from="1371065018402" duration="31000" />
       <workItem from="1371065155664" duration="16000" />
       <workItem from="1371069605419" duration="4871000" />
+      <workItem from="1371074996870" duration="2459000" />
+      <workItem from="1371077534868" duration="10327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4918000" />
+    <option name="totallyTimeSpent" value="17704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="true" />
+    <frame x="18" y="22" width="1258" height="704" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.67064846" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.67064846" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16045381" sideWeight="0.6712538" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22231404" sideWeight="0.9189603" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -643,8 +658,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22771475" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24770643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24545455" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07966102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -832,11 +847,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PollDance/build/res/all/debug/layout/activity_client_response.xml">
+    <entry file="file://$PROJECT_DIR$/PollDance/src/main/res/layout/activity_client_response.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
+        <state line="100" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.6030246">
           <folding>
-            <element signature="e#1986#2002#0" expanded="true" />
+            <element signature="e#2278#2294#0" expanded="true" />
           </folding>
         </state>
       </provider>
