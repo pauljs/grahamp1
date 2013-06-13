@@ -114,6 +114,16 @@
                 path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/activity_host_home.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="activity_results"
+                path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/activity_results.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_new_answer"
+                path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/src/main/res/layout/fragment_new_answer.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/Users/demouser/Documents/AndroidCamp/grahamp1/PollDanceProject/PollDance/build/res/rs/debug" />
     </dataSet>
