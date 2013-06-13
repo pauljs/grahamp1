@@ -3,10 +3,10 @@
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
 
     <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+
         <activity android:label="@string/app_name" android:name="com.grahamp1.polldance.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -14,7 +14,7 @@
         <activity android:label="@string/app_name" android:name="com.grahamp1.polldance.HostHomeActivity">
         </activity>
 
-        <activity android:label="@string/app_name" android:name="com.grahamp1.polldance.CreatePollActivity">
+        <activity android:label="@string/create_poll_title" android:name="com.grahamp1.polldance.CreatePollActivity">
         </activity>
 
     </application>

@@ -41,11 +41,12 @@
             android:layout_height="wrap_content"
             android:text="Create New Answer"
             android:id="@+id/create_answer_button"
-            android:layout_gravity="right|center_vertical"/>
+            android:layout_gravity="center"/>
 
     <ListView
             android:layout_width="wrap_content"
-            android:layout_height="341dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
             android:id="@+id/create_answer_list"
             android:layout_gravity="center"
             android:choiceMode="none"
