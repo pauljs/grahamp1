@@ -8,5 +8,10 @@
     <string name = "create_poll_title" >PollDance: Create Poll</string>
     <string name = "client_response_title" >PollDance: Client Response Screen</string>
 
+    <!-- -->
+    <string name = "question" >Question:</string>
+
+    <!-- Buttons -->
+    <string name = "submit" >Submit</string>
 
 </resources>

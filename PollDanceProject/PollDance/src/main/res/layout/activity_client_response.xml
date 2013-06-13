@@ -1,8 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:weightSum = "100"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- TOP: Question and Timer -->
+    <LinearLayout
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:id = "@+id/client_response_top"
+
+        android:layout_weight = "20"
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+
+        android:color = "FF0000"
+
+        android:orientation = "horizontal">
+
+
+        <!-- Question -->
+        <ScrollView
+            android:id="@+id/cr_qscroll"
+
+            android:layout_weight = "1"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+
+            android:layout_gravity="left|center_vertical"
+
+            android:layout_marginTop = "5dp"
+            android:layout_marginBottom = "5dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight = "5dp" >
+
+            <TextView
+                android:id="@+id/editText"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:ems="12"
+
+                android:text = "Question"
+            />
+
+        </ScrollView>
+
+
+        <!-- Timer -->
+        <TextView
+            android:id = "@+id/cr_timer"
+
+            android:text = "TIME"
+
+            android:layout_width = "200dp"
+            android:layout_height = "match_parent"
+        />
+    </LinearLayout>
+
+
+    <!-- MIDDLE: List of Answers -->
+    <ListView
+        android:id = "@+id/cr_list"
+
+        android:layout_weight = "80"
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp" >
+
+    </ListView>
+
+
+    <!-- BOTTOM: Submit Button -->
+    <Button
+        android:id = "@+id/cr_submit"
+
+        android:text = "@string/submit"
+        android:textSize = "20dp"
+
+        android:layout_gravity = "center"
+
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+
+        android:layout_marginTop = "5dp"
+        android:layout_marginBotton = "5dp"
+        android:layout_marginLeft = "5dp"
+        android:layout_marginRight = "5dp"
+    />
 
 </LinearLayout>
