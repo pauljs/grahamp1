@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Background selector for ListView instances
+
+    Google Android Camp 2013, Graham + 1
+    14th June 2013
+-->
+
+<selector
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable = "@color/listView_default" android:state_activated = "true"/>
+
+    <!-- Background design: Items pressed -->
+    <item android:drawable = "@color/listView_selected" android:state_pressed = "true"/>
+    <item android:drawable = "@color/listView_default" android:state_pressed = "false"/>
+
+</selector>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+
+    <!-- Top: Asking users to select a question -->
+    <TextView
+            android:id = "@+id/qs_text"
+
+            android:text = "@string/question_select"
+            android:textSize = "@dimen/qs_top_text"
+
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+
+            android:layout_marginTop = "@dimen/border_size"
+            android:layout_marginBottom = "@dimen/border_size"
+            android:layout_marginLeft = "@dimen/border_size"
+            android:layout_marginRight = "@dimen/border_size"
+            android:textColor="#FFFFFF"/>
+
+
+    <!-- Middle: ListView of questions -->
+    <ListView
+            android:id = "@+id/qs_listView"
+
+            android:dividerHeight = "@dimen/listView_divider"
+
+            android:layout_weight = "1"
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+
+            android:background = "#a2a2a2"
+            />
+
+    <!-- Bottom: Select Button -->
+    <Button
+            android:id = "@+id/qs_select_button"
+
+            android:background="@drawable/select"
+            android:textSize = "@dimen/button_text_size"
+
+            android:layout_gravity = "center"
+
+            android:layout_height = "40dp"
+            android:layout_width = "100dp"
+
+            android:layout_marginTop = "@dimen/border_size"
+
+            android:onClick = "openQuestion"
+            />
+
+
+</LinearLayout>

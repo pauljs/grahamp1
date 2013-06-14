@@ -1,0 +1,52 @@
+<!--
+    Display file for the Splash Screen
+
+    Google Android Camp 2013, Graham + 1
+    14th June 2013
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/home_screen"
+    tools:context=".MainActivity">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/createpoll"
+            android:id="@+id/create_button"
+            android:onClick="goToCreatePoll"
+            android:textSize="50dp"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:layout_row="21"
+            android:layout_column="12"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/load_button"
+            android:layout_marginRight="-20dp"
+            android:layout_marginBottom="250dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loadpoll"
+            android:id="@+id/load_button"
+            android:onClick="goToLoadPoll"
+            android:textSize="50dp"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:layout_row="21"
+            android:layout_column="12"
+            android:layout_alignBaseline="@+id/host_button"
+            android:layout_alignBottom="@+id/host_button"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="600dp"/>
+
+</RelativeLayout>

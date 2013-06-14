@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:id="@+id/helpMsg"
+            android:textSize="25dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To create a poll, press the Create Poll button. Here you can enter in the question and answers, as well as attach a hyperlink"
+
+            android:id="@+id/hostMsg"
+            android:layout_below="@+id/helpMsg"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To import a poll, press the Load Poll button. The questions will be imported from res/raw/questions.xml and parsed into an object format"
+
+            android:layout_below="@+id/clientMsg"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_marginTop="19dp"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Constants for Strings used in this application
+
+    Google Android Camp 2013, Graham + 1
+    14th June 2013
+-->
+
+<resources>
+
+    <string name="app_name" >TotemPoll</string>
+    <string name = "action_settings" >Settings</string>
+
+    <!-- Title of each screen : Where applicable -->
+    <string name = "create_poll_title" >TotemPoll: Create Poll</string>
+    <string name = "client_response_title" >TotemPoll: Client Response</string>
+    <string name = "question_selection_title" >TotemPoll: Question Selection</string>
+
+    <!-- Buttons -->
+    <string name = "submit" >Submit</string>
+    <string name = "select" >Select</string>
+
+    <!-- Instructions -->
+    <string name = "question_select" >Please select a question:</string>
+
+    <string name = "cr_question_instru">Question:</string>
+    <string name = "cr_answer_instru">Please select one:</string>
+
+</resources>

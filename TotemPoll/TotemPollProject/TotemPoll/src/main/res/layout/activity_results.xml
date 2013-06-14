@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/results_linear_layout"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:id="@+id/results_question_text"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center">
+
+        <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:layout_gravity="center"
+                android:id="@+id/pie_chart_pane">
+        </FrameLayout>
+
+        <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:id="@+id/results_answer_list"
+                android:layout_gravity="center"
+                android:background="#a2a2a2"/>
+
+    </LinearLayout>
+
+
+    <Button
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:background="@drawable/exit"
+            android:id="@+id/add_vote_button"
+            android:layout_gravity="center"
+            android:onClick="goToSplash"
+            android:layout_marginTop = "@dimen/border_size" />
+</LinearLayout>

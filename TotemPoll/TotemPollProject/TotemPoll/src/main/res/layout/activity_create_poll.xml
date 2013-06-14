@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Display file for the screen used for creating a poll
+
+Google Android Camp 2013, Graham + 1
+14th June 2013
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000">
+
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <!-- Adding a question -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question:"
+                android:id="@+id/question_prompt_text"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+        <Button
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/hyperlink"
+                android:id="@+id/add_hyperlink_button"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom = "@dimen/border_size"
+                android:layout_marginTop="@dimen/border_size"/>
+    </FrameLayout>
+
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/create_question_text"
+            android:layout_gravity="left|center_vertical"
+            android:background="#a2a2a2"
+            android:textIsSelectable="false"
+            android:textColorLink="#2b91b9"
+            android:layout_marginLeft = "@dimen/border_size"
+            android:layout_marginRight="@dimen/border_size" />
+
+    <!-- Adding Answers -->
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="Answers:"
+                android:id="@+id/textView2"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+        <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/plus"
+                android:id="@+id/create_answer_button"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/border_size"
+                android:layout_marginBottom="@dimen/border_size"/>
+    </FrameLayout>
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:id="@+id/create_answer_list"
+            android:layout_gravity="center"
+            android:choiceMode="singleChoice"
+            android:background="#a2a2a2"
+            android:layout_marginLeft = "@dimen/border_size"
+            android:layout_marginRight="@dimen/border_size" />
+
+    <!-- Button for submitting the completed poll -->
+
+    <Button
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sharepoll"
+            android:id="@+id/share_poll_button"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="@dimen/border_size"/>
+
+</LinearLayout>

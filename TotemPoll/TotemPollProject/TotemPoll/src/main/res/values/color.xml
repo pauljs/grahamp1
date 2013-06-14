@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Constants for the colours used in this application
+
+    Google Android Camp 2013, Graham + 1
+    14th June 2013
+-->
+
+<resources>
+
+    <!-- TextView Colours -->
+    <color name = "cr_question_colour">#aef1ff</color>
+
+    <!-- Button Colours -->
+    <color name = "listView_default">#ddffb1</color>
+    <color name = "listView_selected">#aef1ff</color>
+
+</resources>

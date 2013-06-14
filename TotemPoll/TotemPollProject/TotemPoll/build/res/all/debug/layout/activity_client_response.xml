@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+
+    <!-- Question -->
+    <TextView
+            android:id = "@+id/cr_question_title"
+
+            android:text = "@string/cr_question_instru"
+            android:textSize = "@dimen/cr_instruction"
+
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+
+            android:layout_marginTop = "@dimen/border_size"
+            android:layout_marginLeft = "@dimen/border_size"
+            android:layout_marginRight = "@dimen/border_size"
+            android:textColor="#ffffff"/>
+
+    <ScrollView
+            android:id="@+id/cr_qscroll"
+
+            android:layout_weight = "20"
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+
+            android:layout_gravity = "center"
+
+            android:layout_marginTop = "@dimen/border_size"
+            android:layout_marginBottom = "@dimen/separator_size"
+            android:layout_marginLeft = "@dimen/border_size"
+            android:layout_marginRight = "@dimen/border_size"
+
+            android:background="#a2a2a2"
+            android:fillViewport="false">
+
+        <TextView
+                android:id="@+id/cr_question"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textSize = "@dimen/cr_question_size"
+                android:textColorLink="#2b91b9"/>
+    </ScrollView>
+
+
+    <!-- List of Answers -->
+    <TextView
+            android:id = "@+id/cr_answer_instru"
+
+            android:text = "@string/cr_answer_instru"
+            android:textSize = "@dimen/cr_instruction"
+
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+
+            android:layout_marginLeft = "@dimen/border_size"
+            android:layout_marginRight = "@dimen/border_size"
+            android:textColor="#ffffff"/>
+
+    <ListView
+            android:id = "@+id/cr_list"
+
+            android:dividerHeight = "@dimen/listView_divider"
+
+            android:layout_weight = "80"
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+
+            android:layout_marginTop = "@dimen/border_size"
+            android:layout_marginBottom = "@dimen/border_size"
+            android:layout_marginLeft = "@dimen/border_size"
+            android:layout_marginRight = "@dimen/border_size"
+
+            android:background = "#a2a2a2">
+    </ListView>
+
+
+    <!-- Submit Button -->
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <Button
+                android:id = "@+id/cr_submit"
+
+                android:textSize = "@dimen/button_text_size"
+
+                android:layout_width = "110dp"
+                android:layout_height = "40dp"
+
+                android:layout_marginBottom = "@dimen/border_size"
+
+                android:onClick = "submitResponse"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textStyle="bold"
+                android:background="@drawable/submit" />
+
+        <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/results"
+                android:id="@+id/button"
+                android:layout_gravity="right|top"
+                android:onClick="showResults"
+                android:layout_marginRight = "@dimen/border_size" />
+    </FrameLayout>
+
+</LinearLayout>

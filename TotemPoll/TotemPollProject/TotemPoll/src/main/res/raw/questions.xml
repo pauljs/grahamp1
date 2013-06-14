@@ -1,0 +1,32 @@
+<poll>
+<question text="What is the meaning of life?">
+	<answer text="food" isCorrect="false"/>
+	<answer text="42" isCorrect="true"/>
+	<answer text="sleep" isCorrect="false"/>
+	<answer text="Google" isCorrect="false"/>
+	<answer text="this question" isCorrect="false"/>
+</question>
+<question text="What is the best team at Android Camp 2013?">
+	<answer text="Were feeling lucky" isCorrect="false"/>
+	<answer text="Cobalt04" isCorrect="false"/>
+	<answer text="Algorhythms" isCorrect="false"/>
+	<answer text="OpenCage" isCorrect="false"/>
+	<answer text="Graham+1" isCorrect="true"/>
+	<answer text="h.a.c.k" isCorrect= "false"/>
+</question>
+<question text="What is the best programming beverage?">
+	<answer text="Avitae Caffeinated Water" isCorrect="true"/>
+	<answer text="Tequila" isCorrect="false"/>
+	<answer text="Regular water" isCorrect="false"/>
+	<answer text="soda" isCorrect="false"/>
+	<answer text="coffee" isCorrect="false"/>
+	<answer text="orange juice" isCorrect= "false"/>
+</question>
+<question text="Where have we not eaten at?">
+    <answer text="Charlies" isCorrect="false"/>
+    <answer text="Yoshka" isCorrect="false"/>
+    <answer text="Big Table" isCorrect="false"/>
+    <answer text="Stock Market" isCorrect="false"/>
+    <answer text="Long Life" isCorrect="true"/>
+</question>
+</poll>
